@@ -59,25 +59,6 @@
 html{
     scroll-behavior: smooth;
 }
-
-/*========== Variables Dark theme ==========*/
-body.dark-theme{
-    --title-color: #F1F3F2;
-    --text-color: #C7D1CC;
-    --body-color: #1D2521;
-    --container-color: #27302C;
-}
-
-/*========== Button Dark/Light ==========*/
-.change-theme {
-    position: absolute;
-    right: 1rem;
-    top: 1.8rem;
-    color: var(--text-color);
-    font-size: 1rem;
-    cursor: pointer;
-}
-
 body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -86,13 +67,8 @@ body{
     color: var(--text-color);
     line-height: 1.6;
 }
-h1,h2,h3,ul,p{
+h1,h2,h3,p{
     margin: 0;  
-}
-
-ul{
-    padding: 0;
-    list-style: none;
 }
 a{
     text-decoration: none;
@@ -146,52 +122,6 @@ img{
 }
 
 /*========== NAV ==========*/
-.nav{
-    max-width: 1024px;
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    &__menu{
-        @media screen and (max-width: 768px){
-            position: fixed;
-            top: -100%;
-            left: 0;
-            width: 100%;
-            padding: 1.5rem 0 1rem;
-            text-align: center;
-            background-color: var(--body-color);
-            transition: .4s;
-            box-shadow: 0 4px 4px rgba(0,0,0,.1);
-            border-radius: 0 0 1rem 1rem;
-            z-index: var(--z-fixed);
-        }
-    }
-    &__item{
-        margin-bottom: var(--mb-2);
-    }
-    &__link, &__logo, &__toggle{
-        color: var(--text-color);
-        font-weight: var(--font-medium);
-    }
-    &__logo{
-        &:hover{
-            color: var(--first-color);
-        }
-    }
-    &__link{
-        transition: .3s;
-        
-        &:hover{
-            color: var(--first-color);
-        }
-    }
-    &__toggle{
-        font-size: 1.3rem;
-        cursor: pointer;
-    }
-}
 
 /* Show menu */
 .show-menu{
@@ -357,38 +287,6 @@ img{
         border-radius: .5rem 0 .5rem 0;
     }
 }
-
-/*========== APP ==========*/
-.app{
-    &__data{
-        text-align: center;
-    }
-    &__description{
-        margin-bottom: var(--mb-5);
-    }
-    &__stores{
-        margin-bottom: var(--mb-4);
-    }
-    &__store{
-        width: 120px;
-        margin: 0 var(--mb-1);
-    }
-    &__img{
-        width: 230px;
-        justify-self: center;
-    }
-}
-
-/*========== CONTACT ==========*/
-.contact{
-    &__container{
-        text-align: center;
-    }
-    &__description{
-        margin-bottom: var(--mb-3);
-    }
-}
-
 /*========== FOOTER ==========*/
 .footer{
     &__container{

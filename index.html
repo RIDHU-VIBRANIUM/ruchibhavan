@@ -4,31 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--========== BOX ICONS ==========-->
+        
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--========== CSS ==========-->
+        
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        <title>ruchi bhavan</title>
-        <link rel="shortcut icon" href="assets\img\RUCHI BHAVAN logo.jpg" type="image/x-icon">
+        <title>Ruchi Bhavan</title>
+        <link rel="shortcut icon" href="assets\img\RUCHIBHAVANlogo.jpg" type="image/gif">
     </head>
     <body>
-
-     
-
         
-        
-           
-                
-                <img src="assets\img\RUCHI BHAVAN logo.jpg"id="logo" class="logo"  >
+    <div id="nav-background">
+        <div id="nav-container">
+          <header id="nav-header">
+            <h1><a href="#"><img src="assets\img\RUCHIBHAVANlogo.jpg" id="logo" alt=""></a></h1>
+            <div id="nav-menu-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
+          </header>
+          <nav>
+            <ul class="nav-ul hide-ul">
+              <li><a class="nav-link active-link" href="#">Home</a></li>
+              <li><a class="nav-link" href="#services">Services</a></li>
+              <li><a class="nav-link" href="#menu">Special</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#media">media</a></li>
+              <li><a class="nav-link" href="#map">Map</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+
             <div id="contact3" class="phone">
-           <h2>call us: mob: (+971) 058 195 1443 <br> lan: 03 087843560
+           <h2><br><br>Contact Us<br> mobile:(+971) 058 195 1443<br> phone:(+971) 03 087843560
            </h2>
         </div>
         <main class="l-main">
@@ -36,17 +47,15 @@
             <section class="home" id="home">
                 <div id="text1" class="home__container_bd-container_bd-grid">
                     <div class="home__data">
-                        <h1 class="home__title">ruchi bhavan</h1>
+                        <h1 class="home__title">Ruchi Bhavan</h1>
                         <h2 class="home__subtitle">Try the best food of the south indian <br> tradition in uae.</h2>
-                        <img src="assets\img\sadya.jpg" alt="" id="sadya">
+                        <div id="sadyadiv" class="sadyres">
+                            <img src="assets\img\sadya.jpg" id="sadya">
+                        </div>
                     </div>
                     
-                   
                 </div>
             </section>
-            
-            
-
             <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
                 <span class="section-subtitle">Offering</span>
@@ -116,7 +125,7 @@
                             46.6405 18.816 45.964 18.3989 45.5466Z"/>
                         </svg>
                         <h3 class="services__title">indian food </h3>
-                        <p class="services__description">We offer our clients excellent quality services with the best and delicious sourth indian food in the city.</p>
+                        <p class="services__description" id="black" >We offer our clients excellent quality services with the best and delicious sourth indian food in the city.</p>
                     </div>
 
                     <div class="services__content">
@@ -176,7 +185,7 @@
                                 </defs>
                         </svg>
                         <h3 class="services__title">Delivery</h3>
-                        <p class="services__description">we do free home Delivery with 40 mins</p>
+                        <p class="services__description" id="black">we do free home Delivery within 3km in 40 mins</p>
                     </div>
                 </div>
             </section>
@@ -190,20 +199,29 @@
                     <div class="menu__content">
                         <img src="assets\img\download.jpg" alt="" class="menu__img">
                         <h3 class="menu__name">hariyali chicken curry</h3>
-                        <span class="menu__detail">spicy with tender chicken curry</span>
-                        <span class="menu__preci">19 AED</span>
+                        <span class="menu__detail" id="black">spicy with tender chicken curry</span>
+                        <span class="menu__preci">23 AED</span>
                         
                     </div>
 
                     <div class="menu__content1">
-                        <img src="assets\img\01.07.2021_21.37.54_REC.png" alt="" class="menu__img">
+                        <img src="assets\img\SHAAYI CHICKEN DARK.jpeg" alt="" id="SHAYI" class="menu__img">
+                        <div id="centrel">
                         <h3 class="menu__name">shahi chicken</h3>
-                        <span class="menu__detail">sweet and tender chicken full</span>
-                        <span class="menu__preci">35 AED</span>
-                        
+                        <span class="menu__detail" id="black">sweet and tender chicken full</span>
+                        <div><span class="menu__preci">35 AED</span></div>
                     </div>
+                    
                 
                 </div>
+                <div class="menu__content1">
+                    <img src="assets\img\KUTHUPORATTA.jpeg" alt="" id="SHAYI" class="menu__img">
+                    <div id="centrel">
+                    <h3 class="menu__name">Kuthu Poratta</h3>
+                    <span class="menu__detail" id="black">poratta with chicken and masala crushed and mixed</span>
+                    <div><span class="menu__preci">8 AED</span></div>
+                </div>
+            </div>
             </section>           
             <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
@@ -214,9 +232,9 @@
             
                         <span class="section-subtitle about__initial">About us</span>
             
-                        <h2 class="section-title about__initial">We cook the best <br> tasty south indian food</h2>
+                        <h2 class="section-title about__initial" >We cook the best <br> tasty south indian food</h2>
             
-                        <p class="about__description">we only cook fresh items with less oil and fat.</p>
+                        <p class="about__description" id="black">we only cook fresh items with less oil and fat.</p>
             
         
                     </div>
@@ -224,14 +242,74 @@
         <img src="data:image/jpeg;base64,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" alt="" class="about__img">
     </div>
 </section>
-            <section class="map">
+             <!-- Slideshow container -->
+<div class="slideshow-container" id="media">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade" id="video">
+        <video width="100%" height="auto"  controls="controls">
+            <source src="assets\img\FULL TOUR.mp4" type="video/mp4">
+          </video> 
+    </div>
+    <div class="mySlides fade" id="video">
+        <video width="100%" height="500px"  controls="controls">
+            <source src="assets\img\azhar.mp4" type="video/mp4">
+          </video> 
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="assets\img\SHAAYI CHICKEN.jpeg" style="width:100%"  >
+      
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="assets\img\CHILLICHICKEN.jpeg" style="width:100%" >
+      
+    </div>
+    <div class="mySlides fade">
+      
+        <img src="assets\img\KUTHUPORATTA.jpeg">
+        
+      </div>
+      <div class="mySlides fade">
+      
+        <img src="assets\img\POTHICHORU.jpeg"  >
+        
+      </div>
+      <div class="mySlides fade">
+      
+        <img src="assets\img\SHAAYIFISH2.jpeg" >
+        
+      </div>
+      <div class="mySlides fade">
+      
+        <img src="assets\img\PUTTU.jpeg">
+        
+      </div>
+  
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" onclick="vide" >&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+            <section class="map"  id="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14554.210798988268!2d55.7697259!3d24.2224406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5eb7aefdbdb5feab!2sRuchi%20Bhavan%20restaurant!5e0!3m2!1sen!2sae!4v1625157721802!5m2!1sen!2sae" width="100%" height="600px" style="border:0;" allowfullscreen="yes" loading="lazy"></iframe>
             </section>
         </main>
-
-        <div col-12 col-sm-6 col-md-4 col-lg-3>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-instagram" id="insta"></a>
+        <div id="log">
+        <a href="https://www.facebook.com/ruchibhavanalain/"><img id="fb" src="assets\img\fblogo.png" alt="facebook" aria-hidden="true"></i></a>
+        
+        <a href="https://www.instagram.com/ruchibhavanalain/"><img id="ins" src="assets\img\inslogo.jpg" alt="instagram" aria-hidden="true"></i></a>
     </div>
         <div id="cp">
             <p class="footer__copy">&#169; 2020 ruchibhavan.@copyright</p>
@@ -242,5 +320,63 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+
+        <!-- Bootstrap CSS -->
+<link rel="stylesheet" href= "/bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href= "/stylesheets/styles.css" />
+
+<!--jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/bootstrap/js/bootstrap-collapse.js"></script>
+<script src="/bootstrap/js/bootstrap-transition.js"></script>
+
+        <script>
+           
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  var videoPlayer = document.getElementById('video');
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+
+  
+// Auto play, half volume.
+videoPlayer.play()
+videoPlayer.volume = 0.5;
+
+};
+
+        </script>
+        
     </body>
 </html>
